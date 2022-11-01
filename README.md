@@ -1,4 +1,4 @@
-These two files are the code for the article "Digital Quantum Simulation and Circuit Learning for the Generation of Coherent States", which will be published on Entropy soon.
+These two files are the code for the article "Digital Quantum Simulation and Circuit Learning for the Generation of Coherent States", Entropy 2022, 24(11), 1529; https://doi.org/10.3390/e24111529
 The environment required is as follow:
 Python --3.6.5
 qiskit --0.34.2
@@ -16,7 +16,7 @@ You can use this method to prepare any Coherent states with high fidelity by set
 qiskit_all_scheme.py : 
 Preparation of coherent states using three VQA schemes;
 Here we have written all three Schemes used in the article in the file
-You can reproduce our experimental data by changing the value of "scheme"
+You can reproduce our experimental data by changing the value of "scheme", qubit number:"n" and circuit depth:"depth".
 You can also change the circuit to build your own Ansatz
 
 Please do not hesitate to contact us by email when having any questions.
